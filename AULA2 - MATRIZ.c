@@ -18,9 +18,11 @@ int main(){
     Determinate = Determinate + M [0][1] * M [1][2] * M [2][0];
     Determinate = Determinate + M [0][2] * M [1][0] * M [2][1];
     //diagonais para cima
-    Determinate = Determinate + M [0][2] * M [1][1] * M [0][2];
-    Determinate = Determinate + M [2][1] * M [1][2] * M [0][0];
-    Determinate = Determinate + M [2][2] * M [1][0] * M [0][1];
+    Determinate = Determinate - M [2][0] * M [1][1] * M [0][2];
+    Determinate = Determinate - M [2][1] * M [1][2] * M [0][0];
+    Determinate = Determinate - M [2][2] * M [1][0] * M [0][1];
 
     printf("Determinante: %d", Determinate);
+
+    return 0;
 }
