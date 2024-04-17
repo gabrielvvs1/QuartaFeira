@@ -1,0 +1,5 @@
+Capital-DF 7 1 1 
+Ceilandia 6 1 1
+Gama 6 2 1 
+Brasiliense 6 1 2 
+Paranoa 5 3 1
